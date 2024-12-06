@@ -1,0 +1,202 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <style>
+        /* General Styles */
+        body {
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+
+        /* Header Section */
+        header {
+            position: relative;
+            height: 60vh;
+            background: url('{% static "predictions/pexels-pixabay-270220.jpg" %}') center/cover no-repeat;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        header::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+        }
+
+        header h1 {
+            position: relative;
+            font-size: 3rem;
+            font-family: 'Montserrat', sans-serif;
+            z-index: 1;
+            margin: 0;
+        }
+
+        header h2 {
+            position: relative;
+            font-size: 1.5rem;
+            font-weight: 300;
+            z-index: 1;
+            margin: 0.5rem 0;
+        }
+
+        header .cta-button {
+            position: relative;
+            z-index: 1;
+            background: #ffcc00;
+            color: #333;
+            padding: 0.8rem 1.5rem;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            margin-top: 1rem;
+            transition: background 0.3s;
+        }
+
+        header .cta-button:hover {
+            background: #ffc107;
+        }
+
+        /* Navigation Bar */
+        nav {
+            background: #003366;
+            color: white;
+            padding: 1rem 10%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        nav ul li {
+            margin: 0 1rem;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 1rem;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        /* Main Content */
+        .content-section {
+            padding: 3rem 10%;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+
+        .donations {
+            background: white;
+            border: 1px solid #ddd;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            text-align: center;
+            padding: 2rem;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .donations:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+
+        .count {
+            font-size: 1.3rem;
+            color: #1a73e8;
+            font-weight: bold;
+        }
+
+        /* Footer */
+        footer {
+            background: #003366;
+            color: white;
+            text-align: center;
+            padding: 2rem 10%;
+            font-size: 0.9rem;
+        }
+
+        footer a {
+            color: #ffcc00;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+    <title>Crime Predictor</title>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Prison Analysis</h1>
+        <h2>The Future of Crime Analysis is Here</h2>
+        <a href="#about" class="cta-button">Learn More</a>
+    </header>
+
+    <!-- Main Section -->
+    <main>
+        <section class="content-section">
+            <a href="model2/">
+                <article class="donations">
+                    <h2 class="count">Conviction Status vs Age/Gender</h2>
+                </article>
+            </a>
+            <a href="model3/">
+                <article class="donations">
+                    <h2 class="count">Escapee and Mental Health Prediction</h2>
+                </article>
+            </a>
+            <a href="model4/">
+                <article class="donations">
+                    <h2 class="count">Crime vs Trial Status</h2>
+                </article>
+            </a>
+            <a href="model5/">
+                <article class="donations">
+                    <h2 class="count">Recidivism vs Rehabilitation</h2>
+                </article>
+            </a>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <h2>About the Idea</h2>
+        <p>
+            This project utilizes Indian prison data from 2001 to 2013 to analyze and predict trends in crime rates and demographic patterns of inmates based on variables like gender, age, region, and trial status. We first do exploratory data analysis (EDA) and data cleaning, then use machine learning algorithms to build predictive models. Insights aim to optimize resource allocation and recommend policy interventions.
+        </p>
+        <p><b>
+            In this project, we employ machine learning and statistical models to identify trends in the status of the prison inmates (convicted vs undertrial) with respect to the crime committed, assess the impact of demographic factors on inmate profiles, and predict future prison resource allocations using historical data. The insights support policy reforms, targeting reduced recidivism, equitable justice, and improved prison management.
+        </b></p>
+        <p>Project By: Apoorv, Jainam, Kalash, and Zubair</p>
+    </footer>
+</body>
+</html>
