@@ -11,9 +11,9 @@
 
 | Team Member       | Question                                                                                                     | Code Location                       | Report location                   |
 |-------------------|-------------------------------------------------------------------------------------------------------------|-------------------------------------|--------------------------------------|
-| Jainam Manish Jain | Rates of Escape and Mental Illness vs. Educational Infrastructure: Identify relationships between inmate education programs and outcomes. |  `predictions/views.py` - line 102 function-predict_view_1 | `predictions/views.py` (lines 50–100) |
-| Kalash Thakur       | Proportion of Undertrial vs. Convicted Inmates Across States and Crimes: Analyze judicial inefficiencies.    | `hypothesis/settings.py` (lines 150–200) | `predictions/models/random_forest_model.pkl` |
-| FNU Syed Zubair Ahmed | Predicting Prison Budget Allocations: Explore historical overcapacity and expenditure data for insights.    | `predictions/models/xgboost_budget.pkl` | `hypothesis/settings.py` (lines 250–300) |
+| Jainam Manish Jain | Rates of Escape and Mental Illness vs. Educational Infrastructure: Identify relationships between inmate education programs and outcomes. |  `predictions/views.py` - line 149 function-predict_view_2 | `predictions/views.py` (lines 50–100) |
+| Kalash Thakur       | Proportion of Undertrial vs. Convicted Inmates Across States and Crimes: Analyze judicial inefficiencies.    |`predictions/views.py` - line 197 function-predict_view_3 | `predictions/models/random_forest_model.pkl` |
+| FNU Syed Zubair Ahmed | Predicting Prison Budget Allocations: Explore historical overcapacity and expenditure data for insights.    | `predictions/views.py` - line 245 function-predict_view_4 | `hypothesis/settings.py` (lines 250–300) |
 | Apoorv Sood     | Demographic Analysis of Inmate Populations: Classify inmates as undertrial or convicted by demographics.     | `predictions/views.py` - line 102 function-predict_view_1 | `predictions/templates/predict.html` |
 
 ---
