@@ -62,12 +62,12 @@
 
 ## Instructions to Build the App
 
-Follow the steps below to set up and run the application locally with Django and ensure scikit-learn version 1.5.1 is installed.
+Follow the steps below to set up and run the application locally with Django and ensure scikit-learn version 1.5.1 is installed.Make sure you have python 3.12
 
 1. **Clone the Repository**:
    - Clone the project repository from GitHub:
      ```bash
-     git clone https://github.com/your-repo.git
+     git clone https://github.com/apoorvso/crop_yield_predictor.git
      ```
    - Navigate into the project directory:
      ```bash
