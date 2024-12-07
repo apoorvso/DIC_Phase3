@@ -14,7 +14,7 @@
 | Jainam Manish Jain | Rates of Escape and Mental Illness vs. Educational Infrastructure: Identify relationships between inmate education programs and outcomes. | `predictions/models/ridge_model_escapees.pkl` | `predictions/views.py` (lines 50–100) |
 | Kalash Thakur       | Proportion of Undertrial vs. Convicted Inmates Across States and Crimes: Analyze judicial inefficiencies.    | `hypothesis/settings.py` (lines 150–200) | `predictions/models/random_forest_model.pkl` |
 | FNU Syed Zubair Ahmed | Predicting Prison Budget Allocations: Explore historical overcapacity and expenditure data for insights.    | `predictions/models/xgboost_budget.pkl` | `hypothesis/settings.py` (lines 250–300) |
-| Apoorv Sood     | Demographic Analysis of Inmate Populations: Classify inmates as undertrial or convicted by demographics.     | `predictions/views.py` - line 102 | `predictions/templates/predict.html` |
+| Apoorv Sood     | Demographic Analysis of Inmate Populations: Classify inmates as undertrial or convicted by demographics.     | `predictions/views.py` - line 102 function-predict_view_1 | `predictions/templates/predict.html` |
 
 ---
 
