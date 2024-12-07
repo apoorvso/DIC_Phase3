@@ -9,7 +9,7 @@
 
 ## Team Members and Questions 
 
-| Team Member       | Question                                                                                                     | Code Location                       | Analysis Location                    |
+| Team Member       | Question                                                                                                     | Code Location                       | Report location                   |
 |-------------------|-------------------------------------------------------------------------------------------------------------|-------------------------------------|--------------------------------------|
 | Jainam Manish Jain | Rates of Escape and Mental Illness vs. Educational Infrastructure: Identify relationships between inmate education programs and outcomes. | `predictions/models/ridge_model_escapees.pkl` | `predictions/views.py` (lines 50–100) |
 | Kalash Thakur       | Proportion of Undertrial vs. Convicted Inmates Across States and Crimes: Analyze judicial inefficiencies.    | `hypothesis/settings.py` (lines 150–200) | `predictions/models/random_forest_model.pkl` |
