@@ -62,7 +62,61 @@
 
 ## Instructions to Build the App
 
+Follow the steps below to set up and run the application locally with Django and ensure scikit-learn version 1.5.1 is installed.
+
 1. **Clone the Repository**:
-   ```bash
-   git clone https://github.com/your-repo.git
-   cd your-repo
+   - Clone the project repository from GitHub:
+     ```bash
+     git clone https://github.com/your-repo.git
+     ```
+   - Navigate into the project directory:
+     ```bash
+     cd your-repo
+     ```
+
+2. **Create a Virtual Environment (Recommended)**:
+   It's best to use a virtual environment to manage dependencies. Run the following commands:
+   - For Windows:
+     ```bash
+     python -m venv venv
+     .\venv\Scripts\activate
+     ```
+   - For macOS/Linux:
+     ```bash
+     python3 -m venv venv
+     source venv/bin/activate
+     ```
+
+3. **Install Required Dependencies**:
+   - Install the required Python dependencies listed in `requirements.txt`:
+     ```bash
+     pip install -r requirements.txt
+     ```
+
+4. **Ensure scikit-learn version 1.5.1**:
+   - Check the currently installed version of scikit-learn:
+     ```bash
+     pip show scikit-learn
+     ```
+   - If the installed version is not 1.5.1, you can install the correct version using:
+     ```bash
+     pip install scikit-learn==1.5.1
+     ```
+
+5. **Run Database Migrations**:
+   - Apply the database migrations to set up the database schema:
+     ```bash
+     python manage.py migrate
+     ```
+
+6. **Start the Django Development Server**:
+   - Run the Django development server:
+     ```bash
+     python manage.py runserver
+     ```
+   - The application will be available at `http://127.0.0.1:8000/` in your browser.
+
+7. **Access the Application**:
+   - Open your browser and go to `http://127.0.0.1:8000/` to access the application locally.
+
+---
