@@ -18,47 +18,7 @@
 
 ---
 
-## Project Structure
 
-- **README.md**: Contains project details, team member contributions, and folder structure.
-- **db.sqlite3**: SQLite database containing project data.
-- **directory_structure.txt**: Text file with the full directory tree.
-- **manage.py**: Django management script for running the project.
-- **requirements.txt**: Python dependencies for the project.
-
-### Main Application Structure
-
-- **crop_yield_predictor/**: Core project settings and configuration files.
-  - `asgi.py`: ASGI application entry point.
-  - `settings.py`: Project settings.
-  - `urls.py`: URL routing for the application.
-  - `wsgi.py`: WSGI configuration for deployment.
-  - `__init__.py`: Marks the directory as a Python package.
-  - **__pycache/**: Compiled Python files.
-    - Various `.pyc` files for `settings.py`, `urls.py`, and `wsgi.py`.
-
-- **predictions/**: Application logic, including models, views, and templates.
-  - **migrations/**: Database migration files.
-    - Includes various migration scripts like `0001_initial.py` and others.
-  - **models/**: Pre-trained machine learning models.
-    - Includes models for budget prediction, crime prediction, and classification.
-  - **static/**: Static assets, including CSS, JavaScript, and images.
-    - `images/`: Contains visual assets like plots and graphs.
-    - `predictions/`: CSS and JS for prediction views.
-  - **templates/**: HTML templates for rendering views.
-    - `predict.html`: Main prediction page.
-    - `Home.html`: Home page for the application.
-    - Other templates for login, profile, and various prediction forms.
-  - **__pycache/**: Compiled Python files for models, views, and other logic.
-
-- **static/**: Global static files for admin and project assets.
-  - `admin/`: Admin-specific styles and scripts.
-    - Includes CSS and JavaScript files for the admin interface.
-  - `images/`: Contains various project images.
-  - `predictions/`: Static files for the predictions app.
-    - Includes CSS, JS, and images used in the predictions page.
-
----
 
 ## Instructions to Build the App
 
@@ -67,7 +27,7 @@ Follow the steps below to set up and run the application locally with Django and
 1. **Clone the Repository**:
    - Clone the project repository from GitHub:
      ```bash
-     git clone https://github.com/apoorvso/crop_yield_predictor.git
+     git clone https://github.com/apoorvso/Prison_Analysis.git
      ```
    - Navigate into the project directory:
      ```bash
