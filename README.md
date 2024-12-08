@@ -1,7 +1,7 @@
 # Project Submission - Phase 3
 
 **Prison Data Analysis Project**  
-**Authors**: FNU Syed Zubair Ahmed, Apoorv Sood, Jainam Manish Jain, Kalash Thakur  
+**Authors**: FNU Syed Zubair Ahmed - 50560739, Apoorv Sood - 50599568, Jainam Manish Jain-50606698 , Kalash Thakur -50560545 
 **Project Name**: Predicting Crime Rates and Enhancing Resource Allocation Strategies Using Prison Data  
 **Professor Name**: Prof. Chen Xu  
 
