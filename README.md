@@ -21,7 +21,7 @@
 ## Project Structure
 - **README.md**: Contains project details, team member contributions, and folder structure.
 - **app/**: contains django code for project.
-- **exp**: python notebook code for ML models being used.
+- **exp/**: python notebook code for ML models being used.
 - **requirements.txt**: Python dependencies for the project.
 
 ## Instructions to Build the App
